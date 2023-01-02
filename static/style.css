@@ -125,7 +125,7 @@ nav button {
 
 .menu{
     margin: auto;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     text-align: center;
 }
@@ -217,6 +217,12 @@ hr {
     text-align: center;
 }
 
+.contacts{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10%;
+}
+
 @media screen and (max-width: 850px) {
     nav {
         display: none;
@@ -232,9 +238,5 @@ hr {
     .content{
         margin: auto;
         text-align: center;
-    }
-
-    .menu {
-        width: 100%;
     }
 }
